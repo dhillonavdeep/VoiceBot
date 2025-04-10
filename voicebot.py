@@ -2,13 +2,16 @@ import requests
 import speech_recognition as sr
 import pyttsx3
 import keyboard
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Initialize speech engine
 engine = pyttsx3.init()
 engine.setProperty("rate", 150)
 
 # Hugging Face API Configuration
-API_TOKEN = "REMOVEDiMmsNuCPBoEualRpgnhCVtgHYblZFPEqcL"  # Replace with your actual API token
+API_TOKEN = os.getenv("HUGGINGFACE_TOKEN")  # Replace with your actual API token
 QA_API_URL = "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2"
 QA_HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 

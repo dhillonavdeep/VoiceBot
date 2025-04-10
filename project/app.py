@@ -3,13 +3,16 @@ import requests
 import pyttsx3
 import threading
 import json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 
 engine = pyttsx3.init()
 engine.setProperty("rate", 150)
 
-API_TOKEN = "REMOVEDiMmsNuCPBoEualRpgnhCVtgHYblZFPEqcL"
+API_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 QA_API_URL = "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2"
 QA_HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 
