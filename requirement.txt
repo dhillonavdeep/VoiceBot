@@ -1,0 +1,6 @@
+requests
+speechrecognition
+pyttsx3
+keyboard
+PyAudio
+flask

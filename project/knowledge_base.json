@@ -1,0 +1,77 @@
+{
+    "knowledge_base": [
+        {
+        "context": "Navdeep, an enthusiastic individual with a solid background in Programming and Data Science. He is committed to applying technical expertise, driving innovation, and contributing to the success of projects and initiatives.",
+        "label": "NAME"
+        },
+        {
+        "context": "Navdeep's Summary: Navdeep is an enthusiastic individual with a solid background in Programming and Data Science. He is committed to applying technical expertise, driving innovation, and contributing to the success of projects and initiatives.",
+        "label": "Name and Summary"
+      },
+      
+      {
+        "context": "Navdeep's Work Experience: Navdeep worked as a Software Developer intern at Qanalyx Technocrats Private Limited from May 3, 2022, to August 1, 2022. During this time, he collaborated on software projects, aided in feature design and implementation, maintained code integrity using version control and best coding practices, and assisted seniors in the design and implementation of features and functionality.",
+        "label": "Work Experience"
+      },
+      {
+        "context": "Navdeep's Education: Navdeep holds a BSc in Programming and Data Science from the Indian Institute of Technology, Madras (2020-2024), with a specialization in Data Science and programming. He also has a specialization in Information Technology from Guru Jambheshwar University of Science and Technology.",
+        "label": "Education"
+      },
+      {
+        "context": "Navdeep's Projects: Navdeep developed a Movie Sentiment Prediction project using Scikit-learn, Pandas, NumPy, TF-IDF, and word embeddings. He also enhanced the Seek Portal with Generative AI features using Gemma:2b, Flask, HTML, Jinja, and JavaScript. Additionally, he created a full-stack music application with Flask backend, Vue.js frontend, Celery, Redis, SMTP, Bootstrap, Jinja2, Flask-SQLAlchemy, and SQLite. Other projects include a Ticket Booking System and a Sales and Inventory Management System.",
+        "label": "Projects"
+      },
+      {
+        "context": "Navdeep's Skills: Java, Python, Scikit-learn, Machine Learning, Deep Learning, NLP, Bash, Vue.js, HTML, CSS, SQL, SQLite, Flask, Data Structures & Algorithms, Linux.",
+        "label": "Skills"
+      },
+      {
+        "context": "Navdeep's Location: Navdeep studied at the Indian Institute of Technology, Madras.",
+        "label": "Location"
+      },
+      {
+        "context": "Navdeep's Graduation Year: Navdeep graduated from the Indian Institute of Technology, Madras in 2024.",
+        "label": "Graduation Year"
+      },
+      {
+        "context": "Navdeep's Internship Duration: Navdeep's internship at Qanalyx Technocrats Private Limited lasted from May 3, 2022, to August 1, 2022.",
+        "label": "Internship Duration"
+      },
+      {
+        "context": "Navdeep's AI tools: Navdeep used Gemma:2b model for lecture based Q&A and coding hints in the Seek Portal project.",
+        "label": "AI tools"
+      },
+      {
+        "context": "Navdeep's database skills: Navdeep used Flask-SQLAlchemy and SQLite for database management in the Music Application project.",
+        "label": "Database skills"
+      },
+      {
+        "context": "Navdeep's backend tools: Navdeep used Flask for backend developement",
+        "label": "Backend tools"
+      },
+      {
+        "context": "Navdeep's frontend tools: Navdeep used Vue.js for frontend developement",
+        "label": "Frontend tools"
+      },
+      {
+        "context": "Navdeep's Life Story: Navdeep is from Charkhi Dadri, completed schooling there, and pursued two degrees simultaneously—BSc in Programming and Data Science and BTech in Information Technology.",
+        "label": "Life Story"
+      },
+      {
+        "context": "Navdeep's Superpower: A sharp mind with strong thinking abilities.",
+        "label": "Superpower"
+      },
+      {
+        "context": "Navdeep's Top 3 Growth Areas: AI & ML, work ethic, and physical health.",
+        "label": "Top 3 Growth Areas"
+      },
+      {
+        "context": "Navdeep's Misconception: Colleagues often think Navdeep is always serious about work.",
+        "label": "Misconception"
+      },
+      {
+        "context": "Navdeep's Pushing Boundaries: Driven by the fear of remaining average.",
+        "label": "Pushing Boundaries"
+      }
+    ]
+  }

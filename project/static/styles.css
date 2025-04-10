@@ -1,0 +1,121 @@
+/* modern_styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    color: #e0e0e0;
+    background: #121212;
+}
+
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -2;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.chat-container {
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    max-width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin: auto; /* Center horizontally */
+    margin-top: 20vh; /* Adjust this value */
+    margin-bottom: 50px;
+}
+
+.chat-header {
+    background-color: #333; /* Darker header */
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #444; /* Darker border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chat-log {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 70%;
+}
+
+.user-message {
+    background-color: #263238; /* Darker user message */
+    color: #e0e0e0;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #37474f; /* Darker bot message */
+    color: #e0e0e0;
+    align-self: flex-start;
+}
+
+.chat-input-area {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #444; /* Darker border */
+}
+
+.chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #263238; /* Darker input */
+    color: #e0e0e0;
+}
+
+.send-button {
+    background-color: #546e7a; /* Darker button */
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #455a64; /* Darker hover */
+}
